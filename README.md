@@ -26,3 +26,6 @@ hugo server -D
 ## トラブルシュート
 
 `module "gallerydeluxe" not found in themes/gallerydeluxe` が出る場合、`theme` は短名ではなくモジュールパス (`github.com/bep/gallerydeluxe`) を指定します。
+
+- `content/works/_index.md`: 作品セクションの一覧ページ定義（`/works/` を生成）
+- `layouts/section/works.html`: `/works/` を確実に描画するセクションテンプレート
