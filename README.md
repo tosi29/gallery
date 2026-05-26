@@ -18,3 +18,8 @@ hugo server -D
 ## Gallery Deluxe へ移行するとき
 
 この構成の `content/works` はそのまま流用し、テンプレートを Gallery Deluxe 側に合わせて置き換えるだけで移行できます。
+
+
+## Netlify
+
+Netlify で `hugo: command not found` を避けるため、`netlify.toml` で `HUGO_VERSION` を固定しています。
