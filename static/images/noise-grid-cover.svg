@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#101018"/>
+  <g stroke="#66d9ff" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M120 200 Q220 120 320 200 T520 200 T720 200 T920 200"/>
+    <path d="M120 300 Q220 220 320 300 T520 300 T720 300 T920 300"/>
+    <path d="M120 400 Q220 320 320 400 T520 400 T720 400 T920 400"/>
+    <path d="M120 500 Q220 420 320 500 T520 500 T720 500 T920 500"/>
+    <path d="M120 600 Q220 520 320 600 T520 600 T720 600 T920 600"/>
+  </g>
+</svg>
