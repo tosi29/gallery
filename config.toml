@@ -2,8 +2,14 @@ baseURL = "/"
 languageCode = "ja"
 title = "Art Gallery"
 
+theme = ["gallerydeluxe"]
+
 [params]
-  description = "画像とインタラクティブ作品を展示するミニギャラリー"
+  description = "Gallery Deluxe ベースのアートギャラリー"
+  [params.gallerydeluxe]
+    shuffle = false
+    reverse = false
+    enable_exif = false
 
 [taxonomies]
   tag = "tags"
@@ -12,3 +18,7 @@ title = "Art Gallery"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/bep/gallerydeluxe"
