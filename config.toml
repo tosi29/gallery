@@ -1,0 +1,14 @@
+baseURL = "/"
+languageCode = "ja"
+title = "Art Gallery"
+
+[params]
+  description = "画像とインタラクティブ作品を展示するミニギャラリー"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
