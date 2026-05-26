@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <section class="grid">
+  {{ range where .Site.RegularPages "Section" "works" }}
+    <article class="card">
+      <a href="{{ .RelPermalink }}">
+        <img src="{{ .Params.cover }}" alt="{{ .Title }}" loading="lazy" />
+        <div class="card-body">
+          <div class="badge">{{ .Params.type }}</div>
+          <h2 style="margin:.25rem 0 .4rem; font-size:1.05rem">{{ .Title }}</h2>
+          <p class="summary">{{ .Params.summary }}</p>
+        </div>
+      </a>
+    </article>
+  {{ end }}
+  </section>
+{{ end }}

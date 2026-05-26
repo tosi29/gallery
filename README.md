@@ -1,6 +1,5 @@
 # Art Gallery (Gallery Deluxe starter)
 
-このリポジトリは **Hugo + Gallery Deluxe** を使った最小構成です。
 
 ## セットアップ
 
@@ -23,9 +22,7 @@ hugo server -D
 - JS作品は個別ページで埋め込み表示
 
 
-## トラブルシュート
 
-`module "gallerydeluxe" not found in themes/gallerydeluxe` が出る場合、`theme` は短名ではなくモジュールパス (`github.com/bep/gallerydeluxe`) を指定します。
+## Netlify
 
-- `content/works/_index.md`: 作品セクションの一覧ページ定義（`/works/` を生成）
-- `layouts/section/works.html`: `/works/` を確実に描画するセクションテンプレート
+Netlify で `hugo: command not found` を避けるため、`netlify.toml` で `HUGO_VERSION` を固定しています。

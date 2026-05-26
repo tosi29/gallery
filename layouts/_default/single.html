@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article>
+  <p class="badge">{{ .Params.type }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ if .Params.cover }}<img class="work-cover" src="{{ .Params.cover }}" alt="{{ .Title }}" />{{ end }}
+  <div>{{ .Content }}</div>
+</article>
+{{ end }}
