@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "ja"
 title = "Art Gallery"
 
-theme = ["gallerydeluxe"]
+theme = ["github.com/bep/gallerydeluxe"]
 
 [params]
   description = "Gallery Deluxe ベースのアートギャラリー"

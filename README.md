@@ -21,9 +21,6 @@ hugo server -D
 - 画像作品は Gallery Deluxe の標準導線で展示
 - JS作品は個別ページで埋め込み表示
 
-## Gallery Deluxe へ移行するとき
-
-この構成の `content/works` はそのまま流用し、テンプレートを Gallery Deluxe 側に合わせて置き換えるだけで移行できます。
 
 
 ## Netlify
