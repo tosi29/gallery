@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; margin: 0; padding: 2rem; background:#0f0f14; color:#f5f5f8; }
+    .wrap { max-width: 860px; margin: 0 auto; }
+    a { color:#7dd3fc; }
+    .btn { display:inline-block; margin-top:1rem; padding:.7rem 1rem; border:1px solid #2b3240; border-radius:10px; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ with .Site.Params.description }}{{ . }}{{ else }}Gallery Deluxe based site{{ end }}</p>
+    <p>ギャラリー一覧へ進んでください。</p>
+    <a class="btn" href="/works/">作品一覧を見る</a>
+  </main>
+</body>
+</html>
